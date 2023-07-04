@@ -1,0 +1,32 @@
+/*estilos del componente decucacion*/
+.titulo{
+    padding-bottom: 30px;
+}
+
+.educacion{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.borde-educacion{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(73, 72, 72);
+}
+
+.imgeducacion1{
+    width: 175px;
+    height: 135px;
+}
+
+.imgeducacion2{
+    width: 155px;
+    height: 125px;
+}
+
+.certificado2{
+    width: 165px;
+    height: 100px;
+    color:#000000;
+}

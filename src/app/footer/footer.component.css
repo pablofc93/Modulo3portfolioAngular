@@ -1,0 +1,7 @@
+footer.bg-black{ /*pasado al componente footer*/
+    width: 100%;
+    height: 11%;
+    padding: 0.5rem;
+    /*position:fixed;*/
+    bottom: 0;
+}

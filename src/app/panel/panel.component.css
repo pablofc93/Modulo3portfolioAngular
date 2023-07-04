@@ -1,0 +1,21 @@
+/*estilos del componente panel*/
+nav.vertical{
+    float: left;
+    margin-left: 0.5em;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 1rem 0;
+    /*justify-content: center;
+    display: flex;*/
+}
+
+.formulario-redes{
+    padding-bottom: 90px;
+}
+

@@ -1,0 +1,13 @@
+/*estilos del componente login*/
+.login{
+    height: 20vh;
+}
+
+.formulario-login{/*pasado al componente login*/
+    margin-top: 2%;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color:#000000;
+}

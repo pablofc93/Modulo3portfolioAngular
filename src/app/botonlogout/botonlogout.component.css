@@ -1,0 +1,11 @@
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+.btn{/*clase para el boton del login*/
+    --bs-btn-padding-y: none;
+    --bs-btn-padding-x: none;
+    /*--bs-btn-font-size: 10 px;*/
+    font-size: 25px;
+    padding-left: 40 px;
+}

@@ -1,0 +1,6 @@
+.btn{/*clase para el boton del login*/
+    --bs-btn-padding-y: none;
+    --bs-btn-padding-x: none;
+    --bs-btn-font-size: 0.9rem;
+    padding-right: 0px;
+}

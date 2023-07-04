@@ -1,0 +1,251 @@
+
+{
+    "imagenLogo":"logo.png",
+    "imagenBanner":"",
+    "nombre": "Pablo Fabián",
+    "apellido": "Camacho",
+    "saludo": "Hola, soy",
+    "especialidad": "Desarrollador Web Full Stack Jr.",
+
+    "botones":[
+        {
+            "botonlogin":"fa-solid fa-user-lock text-white"
+        },
+
+        {
+            "botonlogout":"fa-solid fa-right-from-bracket bg-transparent text-white"
+        }
+    ],
+
+    "redes":[
+        {
+            "id":0,
+            "nombre":"facebook",
+            "enlace":"https://www.facebook.com/pablo.f.camacho/",
+            "clase":"fa-brands fa-facebook text-white"
+
+        },
+
+        {
+            "id":1,
+            "nombre":"instagram",
+            "enlace":"https://www.instagram.com/pablocamacho23/",
+            "clase":"fa-brands fa-instagram text-white"
+
+        },
+
+        {
+            "id":2,
+            "nombre":"linkedin",
+            "enlace":"https://www.linkedin.com/in/pablo-camacho-0088ab18b/",
+            "clase":"fa-brands fa-linkedin text-white"
+
+        },
+
+        {
+            "id":3,
+            "nombre":"git hub",
+            "enlace":"https://github.com/pablofc93",
+            "clase":"fa-brands fa-github text-white"
+
+        } 
+    ],
+
+    "imagenperfil": "perfil.jpg",
+
+    "experiencia":[
+        {
+            "id":0,
+            "ocupacion":"Administrador de sitio web",
+            "org": "Radio FM San Pedro 92.3",
+            "inicio":"Marzo 2021",
+            "fin":"Marzo 2022",
+            "tiempo":"1 año",
+            "lugar":"San Pedro de Jujuy - Argentina",
+            "imagen":"experiencia1.png",
+            "clase":"imgexp1"
+        },
+
+        {
+            "id":1,
+            "ocupacion":"Capacitación a docentes en uso de herramientas Office",
+            "org": "Colegio Secundario n° 15 Padre Miguel Ángel Aquino",
+            "inicio":"Marzo 2012",
+            "fin":"Diciembre 2012",
+            "tiempo":"9 meses",
+            "lugar":"San Pedro de Jujuy - Argentina",
+            "imagen":"experiencia2.png",
+            "clase":"imgexp2"
+        }
+    ],
+
+    "educacion":[
+        {
+            "id": 0,
+            "institucion": "Instituto de Educación Superior Nº 7 'Populorum Progressio - In. Te. La.'",
+            "titulo":"Técnico Superior en Informática con Orientación en Programación",
+            "inicio": "2012", 
+            "fin": "2015",
+            "nivel": "Terciario",
+            "duracion": "3 años",
+            "lugar":"San Pedro de Jujuy - Argentina",
+            "imagen": "educacion1.jpg",
+            "clase":"imgeducacion1"
+        },
+        
+        {
+            "id": 1,
+            "institucion": "Universidad Nacional de Jujuy - Facultad de Ingeniería",
+            "titulo":"Licenciatura en Sistemas",
+            "inicio": "2016", 
+            "fin": " En curso ",
+            "nivel": "Universitario",
+            "lugar":"San Salvador de Jujuy - Argentuna",
+            "imagen": "educacion2.png",
+            "clase":"imgeducacion2"
+        }
+    ],
+
+    "cursos":[
+        {
+            "id": 0,
+            "titulo":"Argentina Programa",
+            "inicio": "Junio 2022", 
+            "fin": " Julio 2022 ",
+            "nivel": "Primera etapa - Sé programar",
+            "lugar": "",
+            "imagen": "primera_etapa.png",
+            "clase": "certificado2"
+
+        }
+    ],
+
+    "tecno":[
+        {
+            "id":0,
+            "nombre":"HTML",
+            "porcentaje":"75",
+            "color":"color-tec"
+        },
+
+        {
+            "id":1,
+            "nombre":"CSS",
+            "porcentaje":"60",
+            "color":"color-tec"
+        },
+
+        {
+            "id":2,
+            "nombre":"JAVASCRIPT",
+            "porcentaje":"30",
+            "color":"color-tec"
+        },
+
+        {
+            "id":3,
+            "nombre":"BOOSTRAP",
+            "porcentaje":"40",
+            "color":"color-tec"
+        },
+
+        {
+            "id":4,
+            "nombre":"PHP",
+            "porcentaje":"75",
+            "color":"color-tec"
+        },
+
+        {
+            "id":5,
+            "nombre":"JAVA",
+            "porcentaje":"40",
+            "color":"color-tec"
+        },
+
+        {
+            "id":6,
+            "nombre":"C++",
+            "porcentaje":"30",
+            "color":"color-tec"
+        }
+
+    ],
+
+    "software":[
+        {
+            "id":0,
+            "nombre":"Paquete Office",
+            "porcentaje":"80",
+            "color":"color-software"
+        },
+
+        {
+            "id":1,
+            "nombre":"Photoshop",
+            "porcentaje":"40",
+            "color":"color-software"
+        },
+
+        {
+            "id":2,
+            "nombre":"Corel Draw",
+            "porcentaje":"40",
+            "color":"color-software"
+        }
+    ],
+
+    "hblandas":[
+        {
+            "id":0,
+            "nombre":"Compañerismo",
+            "porcentaje":"70",
+            "color":"color-habilidad"
+        },
+
+        {
+            "id":1,
+            "nombre":"Comunicación",
+            "porcentaje":"70",
+            "color":"color-habilidad"
+        },
+
+        {
+            "id":2,
+            "nombre":"Trabajo en equipo",
+            "porcentaje":"75",
+            "color":"color-habilidad"
+        }
+    ],
+
+    "proyectos":[
+        {
+            "id":0,
+            "nombre":"nombre proyecto 1",
+            "descripcion":"Descripción Proyecto 1",
+            "enlace":"Enlace proyecto 1"
+        },
+
+        {
+            "id":1,
+            "nombre":"nombre proyecto 2",
+            "descripcion":"Descripción Proyecto 2",
+            "enlace":"Enlace proyecto 2"
+        },
+
+        {
+            "id":2,
+            "nombre":"nombre proyecto 3",
+            "descripcion":"Descripción Proyecto 3",
+            "enlace":"Enlace proyecto 3"
+        }
+    ],
+
+    "footer":[
+        {
+        "id":0,
+        "info":"© Copyright Pablo Fabián Camacho - 2022"
+        }
+    ]
+
+}

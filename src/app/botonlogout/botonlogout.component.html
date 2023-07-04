@@ -1,0 +1,10 @@
+<!-- Boton que envía al logout, cierra sesión -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal" *ngFor="let datos of botones">
+    <a routerLink="/index">
+        <i [ngClass]="datos.botonlogout"></i><br>
+    </a>  
+</button>
+
+<!-- para poner enlaces a páginas internas con angular se escribe:-->
+<!--<a routerLink="/index">Enlace</a>-->
+

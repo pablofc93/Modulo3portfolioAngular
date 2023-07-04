@@ -1,0 +1,14 @@
+<ul class="list-group list-group-horizontal">
+  <!--Iconos de redes sociales generados con ngFor-->
+  <li class="list-group-item bg-transparent border-dark" *ngFor="let datos of redes">
+    <a href={{datos.enlace}} target="_blank">
+      <i [ngClass]="datos.clase"></i>
+    </a>
+  </li> 
+
+  
+  <!--User boton del login-->
+ <li class="list-group-item bg-transparent border-dark" data-bs-target="loginModal">
+    <app-botonlogin></app-botonlogin><!--selector que lleva al botón para poder loguearse-->
+</li>
+</ul>

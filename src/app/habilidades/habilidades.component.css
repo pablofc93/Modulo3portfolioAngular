@@ -1,0 +1,52 @@
+.borde-habilidades{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(73, 72, 72);
+}
+
+.habilidades{
+    margin-top: 100px;
+}
+
+.tecnologia{
+    padding-bottom: 1rem;
+    font-size: 23px;
+}
+
+.herramientas{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-size: 23px;
+}
+
+.h-blandas{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-size: 23px;
+}
+
+titulo-habilidad{
+    padding: 4px;
+    margin: 4px;
+}
+
+.color-tec{
+    background-color: #d1af06;
+    text-align: center;
+    --bs-progress-height: 1.5rem;
+}
+
+.color-software{
+    background-color: #1b7737;
+    text-align: center;
+    --bs-progress-height: 1.5rem;
+    color: #ffff;
+}
+
+.color-habilidad{
+    background-color: #225fe2;
+    text-align: center;
+    --bs-progress-height: 1.5rem;
+    color: #ffff;
+}

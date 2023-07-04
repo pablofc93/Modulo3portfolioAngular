@@ -1,0 +1,91 @@
+<!--nuevo habilidades-->
+<section class="habilidades">
+
+    <div class="container text-center borde-habilidades">
+
+        <!--fila Hard & Soft Skills-->
+        <div class="row mt-3">
+            <div class="col-lg-12 col-md-12">
+                <h2 class="text-center"><span>Hard & Soft Skills</span></h2>
+            </div>
+        </div>
+
+        <!--fila Tecnologías-->
+        <div class="row mt-3">
+            <div class="col-lg-12 col-md-12">
+                <h4 class="text-start"><strong><span>Tecnologías</span></strong></h4>
+            </div>
+        </div>
+  
+        <!--filas lista de tecnologías hechas con ngFor-->
+        <div class="row mt-3" *ngFor="let datos of tecno">
+            <div class="col-lg-2 col-md-3 col-sm-8" >
+                {{datos.nombre}} <!--nombre tecnología-->
+            </div>
+            
+            <div class="col-lg-8 col-md-9 col-sm-4 text-start">
+                <div class="progress">
+                    <div [ngClass]="datos.color" role="progressbar" aria-label="" [style.width.%]="datos.porcentaje" aria-valuenow="100" 
+                        aria-valuemin="0" aria-valuemax="100">{{datos.porcentaje}}%<!--porcentaje tecnología-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-1 text-start">
+            </div>
+        </div>
+
+        <!--fila Otros Conocimientos-->
+        <div class="row mt-3">
+            <div class="col-lg-12 col-md-12">
+                <h4 class="text-start"><strong><span>Otros conocimientos</span></strong></h4>
+            </div>
+        </div>
+
+        <!--filas lista "Otros conocimientos" hechas con *ngFor-->
+        <div class="row mt-3" *ngFor="let datos of software">
+            <div class="col-lg-2 col-md-3 col-sm-8" >
+                {{datos.nombre}} <!--nombre otros conocimientos-->
+            </div>
+            
+            <div class="col-lg-8 col-md-9 col-sm-4 text-start">
+                <div class="progress">
+                    <div [ngClass]="datos.color" role="progressbar" aria-label="" [style.width.%]="datos.porcentaje" aria-valuenow="100" 
+                        aria-valuemin="0" aria-valuemax="100">{{datos.porcentaje}}%<!--porcentaje otros conocimientos-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-1 text-start">
+            </div>
+        </div>
+
+
+        <!--fila Habilidades Blandas-->
+        <div class="row mt-3">
+            <div class="col-lg-12 col-md-12">
+                <h4 class="text-start"><strong><span>Habilidades Blandas</span></strong></h4>
+            </div>
+        </div>
+
+        <!--filas lista "Otros conocimientos" hechas con *ngFor-->
+        <div class="row mt-3 mb-3" *ngFor="let datos of hblandas">
+            <div class="col-lg-2 col-md-3 col-sm-8" >
+                {{datos.nombre}} <!--nombre habilidades blandas-->
+            </div>
+            
+            <div class="col-lg-8 col-md-9 col-sm-4 text-start">
+                <div class="progress">
+                    <div [ngClass]="datos.color" role="progressbar" aria-label="" [style.width.%]="datos.porcentaje" aria-valuenow="100" 
+                        aria-valuemin="0" aria-valuemax="100">{{datos.porcentaje}}%<!--porcentaje otros conocimientos-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-1 text-start">
+            </div>
+        </div>
+   
+    </div>
+
+</section>

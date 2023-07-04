@@ -1,0 +1,24 @@
+/*navbar*/
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+.fa-brands.fa-facebook:hover{
+    --bs-text-opacity: 1;
+    color:#225fe2 !important;
+}
+
+.fa-brands.fa-instagram:hover{
+    --bs-text-opacity: 1;
+    color:#f81729 !important;
+}
+
+.fa-brands.fa-linkedin:hover{
+    --bs-text-opacity: 1;
+    color:#0b3899 !important;
+}
+
+.fa-brands.fa-github:hover{
+    --bs-text-opacity: 1;
+    color:#584f1f !important;
+}
